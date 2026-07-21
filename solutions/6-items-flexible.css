@@ -20,18 +20,19 @@ body {
 
 .flex-container {
   /* BEGIN (write your solution here) */
-
+  display: flex;
+  flex-direction: column;
   /* END */
 }
 
 .flex-item {
   /* BEGIN (write your solution here) */
-
+  flex: 1 1 200px;
   /* END */
 }
 
 .no-shrink {
   /* BEGIN (write your solution here) */
-
+  flex-shrink: 0;
   /* END */
 }
