@@ -19,7 +19,9 @@ h2 {
 
 .catalog {
   /* BEGIN (write your solution here) */
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   /* END */
 
   text-align: center;
@@ -27,6 +29,6 @@ h2 {
 
 .catalog-item {
   /* BEGIN (write your solution here) */
-
+  width: 350px;
   /* END */
 }
