@@ -9,7 +9,9 @@ body {
 
 header {
   /* BEGIN (write your solution here) */
-
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
   /* END */
   padding: 0 50px;
 
@@ -29,7 +31,7 @@ header .name {
 
 header nav ul {
   /* BEGIN (write your solution here) */
-
+  display: flex;
   /* END */
   padding: 0;
 
@@ -42,7 +44,7 @@ header nav ul li {
 
 main {
   /* BEGIN (write your solution here) */
-
+  display: flex;
   /* END */
 }
 
