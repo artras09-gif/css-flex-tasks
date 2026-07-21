@@ -17,7 +17,9 @@ body {
 
 .container {
   /* BEGIN (write your solution here) */
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   /* END */
 }
 
